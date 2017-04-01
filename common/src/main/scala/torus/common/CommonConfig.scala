@@ -5,10 +5,10 @@ import java.io.InputStreamReader
 import com.typesafe.config.ConfigFactory
 
 
-object Config {
+object CommonConfig {
 
   val config = getClass.getResourceAsStream("/torus.conf")
   val parsedConfig = ConfigFactory.parseReader(new InputStreamReader(config))
-  val plet = ConfigFactory.load(parsedConfig)
+  val torus = ConfigFactory.load(parsedConfig)
 
 }
