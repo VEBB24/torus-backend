@@ -14,7 +14,6 @@ import java.io.File
 import Utils.{FileInfo, Files}
 
 import scala.concurrent.{ExecutionContextExecutor, Future}
-import scala.math._
 import spray.json.DefaultJsonProtocol
 import torus.common.CommonConfig
 
